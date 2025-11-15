@@ -1,0 +1,22 @@
+spring:
+  # === Datasource Configuration ===
+  datasource:
+    url: jdbc:h2:mem:testdb      # In-memory H2 database
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  jpa:
+    hibernate:
+      ddl-auto: update            # Automatically create/update tables from entities
+    database-platform: org.hibernate.dialect.H2Dialect
+
+  # === H2 Console ===
+  h2:
+    console:
+      enabled: true               # Allows access to H2 console at /h2-console
+      path: /h2-console
+
+# === Other existing configurations ===
+server:
+  port: 8080
+
