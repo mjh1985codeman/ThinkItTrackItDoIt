@@ -1,5 +1,5 @@
 # ThinkItTrackItDoIt
 
-## Full Stack (TypeScript - React Frontend and Java SpringBoot BackEnd) Project
+## Tech Stack: RSTS (React · TypeScript · Spring Boot · Java · SQL)
 
 ### IN-THE-WORKS
